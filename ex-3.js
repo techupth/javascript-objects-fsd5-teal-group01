@@ -7,13 +7,13 @@ const employee = {
   address: {
     street: "123 Main Street",
     city: "Cityville",
-    states: "Stateville",
+    state: "Stateville", // แก้จาก states เป็น state
     country: "Countryland",
     postalCode: "12345",
   },
 };
 
-console.log("Employee Name: " + employees.name);
+console.log("Employee Name: " + employee.name); // แก้จาก employees เป็น employee
 console.log("Employee Age: " + employee.age);
 console.log(
   "Employee Address: " +
@@ -21,9 +21,9 @@ console.log(
     ", " +
     employee.address.city +
     ", " +
-    employee.address.state +
+    employee.address.state + // แก้จาก states เป็น state
     ", " +
     employee.address.country +
     " " +
-    employee.adress.postalCode
+    employee.address.postalCode // แก้จาก adress เป็น address
 );
