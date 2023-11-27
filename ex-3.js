@@ -13,7 +13,7 @@ const employee = {
   },
 };
 
-console.log("Employee Name: " + employee.name); // แก้จาก employees เป็น employee
+console.log("Employee Name: " + employee.name);
 console.log("Employee Age: " + employee.age);
 console.log(
   "Employee Address: " +
@@ -21,9 +21,9 @@ console.log(
     ", " +
     employee.address.city +
     ", " +
-    employee.address.state + // แก้จาก states เป็น state
+    employee.address.states +
     ", " +
     employee.address.country +
     " " +
-    employee.address.postalCode // แก้จาก adress เป็น address
+    employee.address.postalCode
 );
